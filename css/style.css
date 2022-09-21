@@ -8,7 +8,70 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
-/* immage */
+.container{
+    max-width: 1400x;
+    margin: auto;
+}
+
+
+
+
+
+
+
 /* header */
+header{
+    background-color: #ff6900;
+}
+
+.header-top .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+  .container .gender{
+    width: 20%;
+    
+}
+.container .logo{
+    width: 60%;  
+}
+.container .link{
+    width: 20%;
+    color: white;
+    
+}
+.gender{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.gender a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    padding-left: 10px;
+    
+}
+.logo img{
+    width: 20%;
+    padding-top: 10px 0;
+       
+}
+ .logo-boolean {
+    text-align: center;
+}
+
+.header-link{
+    text-align: center;
+}
+
+    
+
+
+
+
 /* main */
 /* footer */
+/* immage */
